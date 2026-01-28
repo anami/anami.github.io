@@ -1,21 +1,21 @@
 [
 	{
-		"name": "TempMail.Best",
-		"description": "Best Temporary Email.",
-		"image": "/assets/images/projects/tempmail.best.png",
-		"url": "https://tempmail.best"
+		"name": "Programming Font Installer",
+		"description": "Terminal app to install popular programming fonts on macOS, Windows, and Linux.",
+		"image": "/assets/images/projects/programming_font_installer.png",
+		"url": "https://anami.github.io/programming-fonts-installer/"
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
+		"name": "Stylist",
+		"description": "Live CSS Editor bookmarklet for Developers.",
+		"image": "/assets/images/projects/stylist.png",
+		"url": "https://anami.github.io/stylist"
 	},
 	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
+		"name": "Speakout",
+		"description": "A simple speaking toy",
+		"image": "/assets/images/projects/speakout.png",
+		"url": "https://anami.github.io/speakout"
 	},
 	{
 		"name": "Sink",
