@@ -12,7 +12,33 @@ import Layout from "../layouts/main.astro";
     class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
   >
     <div class="flex flex-col items-center md:flex-row">
-      <div class="relative w-full md:w-1/2">
+      <div
+        class="relative flex justify-center w-full mb-8 md:order-2 md:justify-end md:pl-10 md:w-1/2 md:mb-0 md:translate-y-4 xl:translate-y-0"
+      >
+        <div class="relative z-50 w-48 md:w-full">
+          <div
+            class="absolute bottom-2 left-6 md:bottom-4 md:left-12 z-40 w-12 h-12 md:w-16 md:h-16 rounded-full"
+          >
+            <span
+              class="relative z-20 flex items-center justify-center w-full h-full text-xl md:text-2xl border-8 border-white rounded-full dark:border-neutral-950 bg-neutral-100 dark:bg-neutral-900"
+            >
+              <span
+                class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
+                >👋</span
+              >
+            </span>
+          </div>
+          <div class="relative z-30 md:px-10">
+            <img
+              src="/assets/images/anam_ramen.jpg"
+              loading="eager"
+              decoding="auto"
+              class="relative z-30 w-full aspect-square object-cover rounded-full md:max-w-md mx-auto dark:-translate-y-0.5 border border-dashed border-neutral-300 dark:border-neutral-700"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="relative w-full md:order-1 md:w-1/2">
         <h1
           class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
         >
@@ -36,32 +62,6 @@ import Layout from "../layouts/main.astro";
           <li>and more...</li>
         </ul>
         <!-- <Button text="Follow me on 𝕏" link="https://x.com/0xKaiBi" /> -->
-      </div>
-      <div
-        class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
-      >
-        <div class="relative z-50 w-full">
-          <div
-            class="absolute bottom-4 left-12 z-40 w-16 h-16 rounded-full"
-          >
-            <span
-              class="relative z-20 flex items-center justify-center w-full h-full text-2xl border-8 border-white rounded-full dark:border-neutral-950 bg-neutral-100 dark:bg-neutral-900"
-            >
-              <span
-                class="flex items-center justify-center w-full h-full bg-white border border-dashed rounded-full dark:bg-neutral-950 border-neutral-300 dark:border-neutral-700"
-                >👋</span
-              >
-            </span>
-          </div>
-          <div class="relative z-30 px-10">
-            <img
-              src="/assets/images/anam_ramen.jpg"
-              loading="eager"
-              decoding="auto"
-              class="relative z-30 w-full aspect-square object-cover rounded-full md:max-w-md mx-auto dark:-translate-y-0.5 border border-dashed border-neutral-300 dark:border-neutral-700"
-            />
-          </div>
-        </div>
       </div>
     </div>
   </div>
