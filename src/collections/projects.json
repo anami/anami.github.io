@@ -13,26 +13,15 @@
 	},
 	{
 		"name": "Speakout",
-		"description": "A simple speaking toy",
+		"description": "A simple speaking toy using HTML5 Speech Synthesis API.",
 		"image": "/assets/images/projects/speakout.png",
 		"url": "https://anami.github.io/speakout"
 	},
 	{
-		"name": "Sink",
-		"description": "A Simple / Speedy / Secure Link Shortener with Analytics.",
-		"image": "/assets/images/projects/sink.cool.png",
-		"url": "https://sink.cool"
-	},
-	{
-		"name": "BroadcastChannel",
-		"description": "Turn your Telegram Channel into a MicroBlog.",
-		"image": "/assets/images/projects/broadcast-channel.png",
-		"url": "https://github.com/ccbikai/BroadcastChannel"
-	},
-	{
-		"name": "L(O*62).ONG",
-		"description": "Make your URL looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooonger",
-		"image": "/assets/images/projects/long.png",
-		"url": "https://loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo.ong"
+		"name": "Gellery.php",
+		"description": "Drop in PHP image gallery script with zero configuration.",
+		"image": "/assets/images/projects/galleryphp.png",
+		"url": "https://anami.github.io/gallery-php"
 	}
+
 ]
