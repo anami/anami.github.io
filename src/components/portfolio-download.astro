@@ -1,0 +1,54 @@
+  ---
+  import Button from "./button.astro";
+  ---
+
+  
+  <div class="relative mt-10 overflow-visible pt-20 sm:pt-24 lg:pt-28 mb-16 sm:mb-20 lg:mb-28">
+
+    <!-- Collage -->
+    <div
+      aria-hidden="true"
+      class="pointer-events-none absolute left-1/2 top-0 z-0 h-72 w-full max-w-5xl -translate-x-1/2"
+    >
+      <!-- Mask: makes images feel like they come from behind the CTA -->
+      <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-neutral-100 dark:to-neutral-800"></div>
+
+      <!-- Left (soft) – hidden on mobile -->
+      <img
+        src="/assets/images/apps/app01.png"
+        alt=""
+        class="absolute left-[16%] top-28 w-44 rotate-[-10deg] rounded-xl shadow-2xl ring-1 ring-black/5 dark:ring-white/10 opacity-70 blur-[0.2px] hidden md:block"
+      />
+
+      <!-- Mid-left (hero) -->
+      <img
+        src="/assets/images/apps/app02.png"
+        alt=""
+        class="absolute left-[30%] top-10 w-56 rotate-[-4deg] rounded-xl shadow-2xl ring-1 ring-black/5 dark:ring-white/10 hidden md:block"
+      />
+
+      <!-- Mid-right (hero) – visible on mobile -->
+      <img
+        src="/assets/images/apps/app03.png"
+        alt=""
+        class="absolute left-1/2 -translate-x-1/2 md:translate-x-0 md:left-[52%] top-14 w-52 md:w-60 rotate-[3deg] rounded-xl shadow-2xl ring-1 ring-black/5 dark:ring-white/10"
+      />
+
+      <!-- Right (soft) – only on large screens -->
+      <img
+        src="/assets/images/apps/app05.png"
+        alt=""
+        class="absolute left-[70%] top-28 w-48 rotate-[9deg] rounded-xl shadow-2xl ring-1 ring-black/5 dark:ring-white/10 opacity-70 blur-[0.2px] hidden lg:block"
+      />
+    </div>
+
+    <!-- CTA card -->
+    <div class="relative z-10 mx-auto max-w-2xl translate-y-4 sm:translate-y-6 lg:translate-y-8 rounded-lg bg-neutral-50/90 dark:bg-neutral-800/85 shadow-sm px-6 py-4 backdrop-blur">
+      <p class="text-sm leading-snug text-neutral-600 dark:text-neutral-300 mb-3 max-w-lg">
+
+        Want a quick overview of my work? Download my portfolio PDF showcasing selected projects and case studies.
+      </p>
+
+      <Button text="Download portfolio PDF" link="/assets/anam_portfolio_nov_2021.pdf" download/>
+    </div>
+  </div>
