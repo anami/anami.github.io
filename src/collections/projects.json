@@ -1,5 +1,11 @@
 [
 	{
+		"name": "CV Assistant",
+		"description": "Private AI-based CV and cover letter helper app",
+		"image": "/assets/images/projects/cv_assistant.png",
+		"url": "https://anami.github.io/ai-cv-helper"
+	},
+	{
 		"name": "Programming Font Installer",
 		"description": "Terminal app to install popular programming fonts on macOS, Windows, and Linux.",
 		"image": "/assets/images/projects/programming_font_installer.png",
