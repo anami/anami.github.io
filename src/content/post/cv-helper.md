@@ -16,7 +16,7 @@ It's hard going applying for roles. Some websites require just a LinkedIn URL an
 You now have logins to various websites, a bunch of bespoke cover letters and CVs, and you can't remember if you auto-generated passwords for them or not. Your mind is tired from having to conjure up answers for questions you just cannot copy and paste a generic answer to.
 
 <div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 0.5rem; margin-bottom: 2rem; transform: rotate(-2deg);">
-  <img src="/assets/images/posts/coverletters.png" alt="Cover Letter entry field"  />
+  <img src="/assets/images/posts/coverletters.png" alt="Bunch of cover letters"  />
 </div>
 
 ## A Better Way
@@ -28,6 +28,10 @@ I was copying and pasting excerpts of my CV to ChatGPT so it could help me at le
 I've been tinkering with Ollama and RAG systems for a while. I thought perhaps I could have a local version of ChatGPT where I could paste my entire CV and job descriptions without worrying about privacy.
 
 ## Introducing CV Assistant
+
+<div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 0.5rem; margin-bottom: 2rem;">
+  <img src="/assets/images/posts/cv_assistant.png" alt="CV Assistant"  />
+</div>
 
 I created [CV Assistant](https://anami.github.io/ai-cv-helper/), with Claude's help, to streamline my process of filling in job applications. It uses a local Ollama model with a RAG pipeline — you feed it your CV once, and it draws on it to generate tailored cover letters and answer application questions for each role. Because everything runs locally, your personal data never leaves your machine.
 
