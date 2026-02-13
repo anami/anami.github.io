@@ -27,13 +27,13 @@ I was copying and pasting excerpts of my CV to ChatGPT so it could help me at le
 
 I've been tinkering with Ollama and RAG systems for a while. I thought perhaps I could have a local version of ChatGPT where I could paste my entire CV and job descriptions without worrying about privacy.
 
-## Introducing CV Assistant
+## Introducing AI Career Assistant
 
 <div style="width: 100%; aspect-ratio: 16/9; overflow: hidden; border-radius: 0.5rem; margin-bottom: 2rem;">
-  <img src="/assets/images/posts/cv_assistant.png" alt="CV Assistant"  />
+  <img src="/assets/images/posts/career_assistant.png" alt="CV Assistant"  />
 </div>
 
-I created [CV Assistant](https://anami.github.io/ai-cv-helper/), with Claude's help, to streamline my process of filling in job applications. It uses a local Ollama model with a RAG pipeline — you feed it your CV once, and it draws on it to generate tailored cover letters and answer application questions for each role. Because everything runs locally, your personal data never leaves your machine.
+I created [AI Career Assistant](https://anami.github.io/ai-cv-helper/), with Claude's help, to streamline my process of filling in job applications. It uses a local Ollama model with a RAG pipeline — you feed it your CV once, and it draws on it to generate tailored cover letters and answer application questions for each role. Because everything runs locally, your personal data never leaves your machine.
 
 You simply paste in a job description, and CV Assistant uses your CV as context to produce relevant, personalised responses. No more repeating yourself for every application.
 
