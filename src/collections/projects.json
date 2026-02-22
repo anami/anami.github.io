@@ -28,5 +28,11 @@
 		"description": "Drop in PHP image gallery script with zero configuration.",
 		"image": "/assets/images/projects/galleryphp.png",
 		"url": "https://anami.github.io/gallery-php"
+	},
+	{
+		"name": "Emoji Viewer",
+		"description": "A simple app to find and copy Emojis",
+		"image": "/assets/images/projects/emojiviewer.png",
+		"url": "https://anami.github.io/emojiviewer/"
 	}
 ]
